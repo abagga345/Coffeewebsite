@@ -1,0 +1,386 @@
+/*APPLY MEDIA QUERY AND MAKE CHANGES AT 747PX VW */
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding:5px;
+}
+
+button:hover{
+    transform:scaleX(1.1);
+}
+
+body{
+    background-color:black;
+}
+nav{
+    background-color:black;
+    height:90px;
+    width:100vw;
+    position:fixed;
+    top:0px;
+    border-bottom:1px solid white;
+    display:flex;
+    justify-content:space-evenly;
+    z-index:10;
+    opacity:1;
+}
+nav .links{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:20px;
+}
+nav .icons{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:15px;
+}
+
+.links a{
+    text-decoration:none;
+    color:white;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+
+
+
+
+
+
+.hero{
+    height:100vh;
+    width:100vw;
+    background-image:url(https://github.com/NAMAN547/coffee-website/blob/main/images/home-img.jpeg?raw=true);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size:cover;
+}
+
+.herocontent{
+    display:flex;
+    flex-direction:column;
+    height:30%;
+    width:600px;
+    gap:10px;
+    /* position:absolute;
+    top:20%;
+    left:5%; */
+    max-width:440px;
+    margin-top:140px;
+    
+}
+
+.herocontent h1{
+    font-size:xxx-large;
+}
+.herocontent p{
+    color:rgb(219, 214, 214);
+}
+.herocontent button{
+    color:white;
+    background-color:rgb(208, 163, 80);
+    height:40px;
+    width:110px;
+}
+
+.aboutus{
+    width:90%;
+    height:fit-content;
+    text-align:center;
+    /* position:absolute; */
+}
+.aboutcontent{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(550px,1fr));
+    margin-left:2.1%;
+    margin-right:5%;
+    background-color:#13131a;
+    color:white;
+    
+
+}
+
+.aboutcontent button{
+    color:white;
+    background-color:rgb(208, 163, 80);
+    height:40px;
+    width:110px;
+}
+.abouttext p{
+    color:rgb(219, 214, 214);
+}
+.abouttext{
+    max-width:600px;
+}
+
+
+
+.ourmenu{
+    /* margin-top:40vh; */
+    margin-left:2%;
+    margin-right:2%;
+    width:90%;
+    text-align:center;
+    /* position:absolute;
+    top:180%; */
+    
+    
+    
+}
+.menucontent{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,290px);
+    
+    gap:20px 10px;
+}
+.item{
+    width:270px;
+    height:300px;
+    border:1px solid white;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.item:hover{
+    color:black ;
+    background-color:white;
+}
+
+.item img{
+    width:60px;
+    height:60px;
+}
+
+.item button{
+    color:white;
+    background-color:rgb(208, 163, 80);
+    height:40px;
+    width:110px;
+}
+
+
+.ourproducts{
+    margin-left:2%;
+    margin-right:2%;
+    width:90%;
+    text-align:center;
+    /* border:1px solid white; */
+
+}
+
+.ourproductscontent,.ourblogcontent{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,400px);
+    
+    gap:10px 10px;
+    
+
+}
+
+.item1{
+    width:360px;
+    height:450px;
+    border:1px solid white;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+
+.icons1{
+    display:flex;
+    gap:6px;
+}
+
+.icons1 .subicons1{
+    width:30px;
+    height:30px;
+    border:1px solid white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.price1 h2{
+    font-size:xx-large;
+    margin-bottom:0px; 
+    margin-top:4px;
+}
+
+.stars{
+    color:rgb(208, 163, 80);
+}
+
+/* .item1:hover{
+    background-color:white;
+    color:black;
+    
+} */
+.subicons1:hover{
+    border:1px solid black;
+    background-color:rgb(208, 163, 80);
+}
+
+.custreviews{
+    margin-left:2%;
+    margin-right:2%;
+    width:90%;
+    text-align:center;
+    /* border:1px solid white; */
+}
+
+.custreviewscontent{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,400px);
+    gap:10px 10px;
+    
+
+}
+
+.item2{
+    width:380px;
+    height:380px;
+    border:1px solid white;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+    
+}
+
+.item2 img:nth-of-type(2){
+    width:60px;
+    height:60px;
+    border-radius:25px;
+}
+
+.contactus{
+    width:100vw;
+    height:8%;
+    text-align:center;
+    /* position:absolute; */
+}
+.contactuscontent{
+    width:90%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(470px,1fr));
+    margin-left:5%;
+    margin-right:5%;
+    background-color:#13131a;
+    color:white;
+    /* height:368px; */
+
+}
+.form1{
+    width:500px;
+    display:flex;
+    flex-direction: column;
+
+}
+.form1 h2{
+    align-self: center;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+form button{
+    color:white;
+    background-color:rgb(208, 163, 80);
+    height:40px;
+    width:110px;
+    align-self: center;
+
+}
+
+form input{
+    height:25px;
+}
+
+.ourblogs{
+    margin-left:2%;
+    margin-right:2%;
+    width:90%;
+    text-align:center;
+}
+
+.item3{
+    width:360px;
+    height:500px;
+    border:1px solid white;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    
+}
+
+.item3 button{
+    color:white;
+    background-color:rgb(208, 163, 80);
+    height:40px;
+    width:110px;
+}
+
+footer{
+    background-color:#13131a;
+    width:100vw;
+    height:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:50px;
+}
+.footericons{
+    display:flex;
+    justify-content:center;
+    
+
+}
+
+.footerlinks{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+
+}
+
+.footericon{
+    width:fit-content;
+    height:20px;
+    border:1px solid white;
+    color:white;
+}
+.footericon a{
+    text-decoration: none;
+    color:white;
+}
+
+.footericon:hover{
+    background-color:rgb(208, 163, 80);
+}
